@@ -1,0 +1,134 @@
+/* General Page Reset & Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fafafa;
+    color: #222222;
+}
+
+/* Header & Metadata Styling */
+header {
+    text-align: center;
+    background-color: #ffffff;
+    border-bottom: 2px solid #d3d3d3;
+}
+
+header img {
+    display: block;
+    max-height: 220px;
+    object-fit: cover;
+}
+
+h1 {
+    margin: 16px 0 4px 0;
+    font-size: 2rem;
+    color: #0b4f26; /* Makerere Institutional Green */
+}
+
+h2 {
+    margin: 0 0 16px 0;
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #444444;
+}
+
+.metadata-bar {
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 10px 15px;
+    font-size: 0.95rem;
+    font-weight: 600;
+    color: #333333;
+    border-top: 1px solid #dddddd;
+}
+
+/* Main Container & Table Structure */
+main {
+    max-width: 1050px;
+    margin: 30px auto;
+    padding: 0 15px;
+}
+
+.results-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.results-table th,
+.results-table td {
+    border: 1px solid #cccccc;
+    padding: 12px 14px;
+    text-align: center;
+}
+
+/* Left-align text columns for readability */
+.results-table td:nth-child(2),
+.results-table td:nth-child(3) {
+    text-align: left;
+}
+
+/* Table Header Styling */
+.results-table thead .table-title {
+    background-color: #0b4f26;
+    color: #ffffff;
+    font-size: 1.15rem;
+    letter-spacing: 0.5px;
+}
+
+.results-table thead tr:nth-child(2) th {
+    background-color: #e2e8e4;
+    color: #1a1a1a;
+    font-weight: 700;
+}
+
+/* Alternating Row Colours: White and #FFF8F4 */
+.results-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.results-table tbody tr:nth-child(even) {
+    background-color: #FFF8F4;
+}
+
+.results-table tbody tr:hover {
+    background-color: #f1ece8;
+}
+
+/* Footer Averages Row */
+.results-table tfoot tr {
+    background-color: #EEEEEE;
+    font-size: 1rem;
+}
+
+.results-table tfoot td:first-child {
+    text-align: right;
+    padding-right: 20px;
+}
+
+/* CSS Colour-Coding for Grades */
+.grade-a {
+    background-color: #d4edda;
+    color: #155724;
+    font-weight: bold;
+}
+
+.grade-b {
+    background-color: #cce5ff;
+    color: #004085;
+    font-weight: bold;
+}
+
+.grade-c {
+    background-color: #fff3cd;
+    color: #856404;
+    font-weight: bold;
+}
+
+.grade-d {
+    background-color: #f8d7da;
+    color: #721c24;
+    font-weight: bold;
+}
